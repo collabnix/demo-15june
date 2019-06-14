@@ -44,3 +44,15 @@ z2ipniffd9ifueplk6193bv6q     worker2             Ready               Active    
 [Captains-Bay]🚩 >  
 ```
 
+## Clone the Wordpress Application Repository
+
+```
+git clone https://github.com/collabnix/dockerlabs
+cd dockerlabs/solution/wordpress
+```
+
+```
+docker stack deploy -c stack.yml myapp
+```
+
+Browse to PWD platform and see 8000 port appear.
